@@ -1,0 +1,84 @@
+
+  .main-container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(151,255,163,1) 0%, rgba(0,212,255,1) 100%);
+   
+
+  }
+  .post-flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: linear-gradient(90deg, rgba(151,255,163,1) 0%, rgba(0,212,255,1) 100%);
+  }
+  .post-text{
+    margin: 12px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    background: linear-gradient(90deg, rgba(151,255,163,1) 0%, rgba(0,212,255,1) 100%);
+  }
+  .input-box{
+    height: 75px ;
+    width: 465px;
+    background-color: #fff;
+    border-radius: 12px;
+
+  }
+
+  .post-button {
+    height: 40px;
+    width: 100px;
+   align-items: center;
+   justify-content: end;
+   position: absolute;
+   display: block;
+   
+  }
+  .form{
+    position: absolute;
+    display: block;
+    background: linear-gradient(90deg, rgba(151,255,163,1) 0%, rgba(0,212,255,1) 100%);
+  }
+  .blog-post{
+    height: 345px;
+    width: 1200px;
+    background-color: #fff;
+    padding-bottom: 234px;
+    border-radius: 12px;
+    word-wrap: break-word;
+
+
+   
+  }
+  .textArea{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(151,255,163,1) 0%, rgba(0,212,255,1) 100%);
+    
+  }
+  .comment-box{
+    height: 74px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 23px;
+    flex-direction: column;
+    margin-left: 360px;
+   
+    background: rgb(245,247,250);
+    background: linear-gradient(47deg, rgba(245,247,250,1) 1%, rgba(184,198,219,1) 100%);
+    
+    
+ 
+  }
+
+  .comment-textarea{
+    width: 900px;
+   
+  }
